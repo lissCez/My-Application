@@ -30,16 +30,16 @@
         android:layout_marginStart="25dp"
         android:fontFamily="@font/poppins_semibold"
         android:gravity="center"
-        android:text="MENU"
+        android:text="@string/menu"
         android:textColor="#FFFFFF"
         android:textSize="36sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        tools:ignore="DuplicateIds"
+        app:layout_constraintTop_toBottomOf="@+id/textView19"
+        tools:ignore="DuplicateIds,NotSibling"
         tools:text="MENU" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView19"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="25dp"
@@ -61,7 +61,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:srcCompat="@drawable/frame_6" />
+        app:srcCompat="@drawable/frame_6"
+        android:importantForAccessibility="no" />
 
     <LinearLayout
         android:layout_width="0dp"
@@ -79,7 +80,8 @@
             android:id="@+id/imageView6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/frame_18" />
+            app:srcCompat="@drawable/frame_18"
+            android:importantForAccessibility="no" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -99,7 +101,9 @@
                 android:paddingTop="18dp"
                 android:paddingBottom="18dp"
                 android:scaleType="fitStart"
-                android:src="@drawable/perfil" />
+                android:src="@drawable/perfil"
+                tools:ignore="RtlSymmetry"
+                android:importantForAccessibility="no" />
 
             <ImageButton
                 android:id="@+id/textView7"
@@ -114,7 +118,9 @@
                 android:paddingTop="18dp"
                 android:paddingBottom="18dp"
                 android:scaleType="fitStart"
-                android:src="@drawable/alugar" />
+                android:src="@drawable/alugar"
+                tools:ignore="RtlSymmetry"
+                android:importantForAccessibility="no" />
 
             <ImageButton
                 android:id="@+id/textView5"
@@ -129,7 +135,9 @@
                 android:paddingTop="18dp"
                 android:paddingBottom="18dp"
                 android:scaleType="fitStart"
-                android:src="@drawable/perguntas_frequentes" />
+                android:src="@drawable/perguntas_frequentes"
+                tools:ignore="RtlSymmetry"
+                android:importantForAccessibility="no" />
 
             <ImageButton
                 android:id="@+id/textView6"
@@ -144,8 +152,21 @@
                 android:paddingTop="18dp"
                 android:paddingBottom="18dp"
                 android:scaleType="fitStart"
-                android:src="@drawable/concientize_se__1_" />
+                android:src="@drawable/concientize_se__1_"
+                tools:ignore="RtlSymmetry"
+                android:importantForAccessibility="no" />
         </LinearLayout>
     </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:srcCompat="@drawable/frame_13"
+        android:importantForAccessibility="no" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

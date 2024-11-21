@@ -27,7 +27,7 @@
         app:srcCompat="@drawable/iphone_13_pro_max___16" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/Logo"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
@@ -54,7 +54,7 @@
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/Logo"
         tools:text="Mude o clima, vá de bike!" />
 
     <ImageView

@@ -2,4 +2,13 @@
     <string name="app_name">My Application</string>
     <string name="gocycle" />
     <string name="menu">MENU</string>
+    <string name="meu_perfil">MEU PERFIL</string>
+    <string name="qtdpontos">QtdPontos</string>
+    <string name="seus_pontos">Seus Pontos</string>
+    <string name="_90">90</string>
+    <string name="_11_1234_5678">(11)1234-5678</string>
+    <string name="email_gmail_com">email@gmail.com</string>
+    <string name="name">Name</string>
+    <string name="adress">Adress</string>
+    <string name="_90_">90</string>
 </resources>

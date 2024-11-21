@@ -8,7 +8,7 @@
     tools:context=".MenuActivity">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/BackGround"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:importantForAccessibility="no"
@@ -24,7 +24,7 @@
         app:srcCompat="@drawable/iphone_13_pro_max___21" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/Logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="25dp"
@@ -60,7 +60,7 @@
         android:layout_marginTop="75dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/Logo"
         app:srcCompat="@drawable/frame_6"
         android:importantForAccessibility="no" />
 

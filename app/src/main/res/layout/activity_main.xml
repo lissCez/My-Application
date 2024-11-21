@@ -10,7 +10,7 @@
 
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/BackGround"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:importantForAccessibility="no"
@@ -26,7 +26,7 @@
         app:srcCompat="@drawable/rectangle_3" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/Logo"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
@@ -51,9 +51,9 @@
         android:text="@string/mude_o_clima_v_de_bike"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/BackGround"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/Logo"
         tools:text="Mude o clima, vá de bike!" />
 
     <ImageView

@@ -57,7 +57,7 @@
         android:id="@+id/linearLayout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="75dp"
+        android:layout_marginTop="85dp"
         android:orientation="vertical"
         app:flow_horizontalGap="32dp"
         app:flow_verticalGap="32dp"
@@ -82,13 +82,13 @@
             android:paddingLeft="15dp"
             android:paddingTop="35dp"
             android:paddingRight="15dp"
-            android:paddingBottom="40dp"
+            android:paddingBottom="35dp"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textColorHint="#FFFFFF"
             android:textDirection="firstStrong"
             android:textSize="26sp"
-            tools:ignore="RtlCompat" />
+            tools:ignore="RtlCompat,RtlHardcoded" />
 
         <TextView
             android:id="@+id/ProfileEmail"
@@ -106,13 +106,13 @@
             android:paddingLeft="15dp"
             android:paddingTop="35dp"
             android:paddingRight="15dp"
-            android:paddingBottom="40dp"
+            android:paddingBottom="35dp"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textColorHint="#FFFFFF"
             android:textDirection="firstStrong"
             android:textSize="26sp"
-            tools:ignore="RtlCompat" />
+            tools:ignore="RtlCompat,RtlHardcoded" />
 
         <TextView
             android:id="@+id/ProfilePhone"
@@ -130,13 +130,13 @@
             android:paddingLeft="15dp"
             android:paddingTop="35dp"
             android:paddingRight="15dp"
-            android:paddingBottom="40dp"
+            android:paddingBottom="35dp"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textColorHint="#FFFFFF"
             android:textDirection="firstStrong"
             android:textSize="26sp"
-            tools:ignore="RtlCompat" />
+            tools:ignore="RtlCompat,RtlHardcoded" />
 
         <TextView
             android:id="@+id/ProfileAdress"
@@ -154,21 +154,21 @@
             android:paddingLeft="15dp"
             android:paddingTop="35dp"
             android:paddingRight="15dp"
-            android:paddingBottom="40dp"
+            android:paddingBottom="35dp"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textColorHint="#FFFFFF"
             android:textDirection="firstStrong"
             android:textSize="26sp"
-            tools:ignore="RtlCompat" />
+            tools:ignore="RtlCompat,RtlHardcoded" />
 
         <ImageButton
-            android:id="@+id/imageButton5"
+            android:id="@+id/BtEntrar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="#00FFFFFF"
-            app:srcCompat="@drawable/frame_18__1_"
-            android:importantForAccessibility="no" />
+            android:importantForAccessibility="no"
+            app:srcCompat="@drawable/frame_18__1_" />
 
     </LinearLayout>
 
@@ -223,7 +223,7 @@
         tools:src="@drawable/group_6__1_" />
 
     <ImageButton
-        android:id="@+id/TrocarPontos"
+        android:id="@+id/BtTrocarPontos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
@@ -235,13 +235,14 @@
         app:srcCompat="@drawable/frame_2" />
 
     <ImageButton
-        android:id="@+id/Sair"
+        android:id="@+id/BtSair"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
-        android:backgroundTint="#00FFFFFF"
-        app:layout_constraintEnd_toEndOf="@+id/BackGround"
+        android:importantForAccessibility="no"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/TrocarPontos"
+        app:layout_constraintTop_toBottomOf="@+id/BtTrocarPontos"
         app:srcCompat="@drawable/frame_13" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

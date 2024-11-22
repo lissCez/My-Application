@@ -11,4 +11,10 @@
     <string name="name">Name</string>
     <string name="adress">Adress</string>
     <string name="_90_">90</string>
+    <string name="digite_seu_nome">Digite seu nome</string>
+    <string name="digite_sua_senha">Digite sua senha</string>
+    <string name="digite_seu_email">Digite seu email</string>
+    <string name="crie_sua_conta">Crie sua conta</string>
+    <string name="login">LOGIN</string>
+    <string name="mude_o_clima_v_de_bike">Mude o clima vá de bike</string>
 </resources>

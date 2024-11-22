@@ -1,5 +1,6 @@
 package com.example.myapplication
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -13,6 +14,9 @@ class MapActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
-        binding.mapView
+        binding.BtMenu.setOnClickListener(){
+            val EntrarMenu3 = Intent(this,MenuActivity::class.java)
+            startActivity(EntrarMenu3)
+        }
     }
 }

@@ -24,7 +24,7 @@
         app:srcCompat="@drawable/rectangle_3" />
 
     <TextView
-        android:id="@+id/Title"
+        android:id="@+id/MEUPERFIL"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="25dp"
@@ -52,6 +52,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:text="GOCYCLE" />
+
+    <ImageButton
+        android:id="@+id/BtMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/common_google_signin_btn_icon_light_normal_background"
+        android:importantForAccessibility="no" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -163,7 +175,7 @@
             tools:ignore="RtlCompat,RtlHardcoded" />
 
         <ImageButton
-            android:id="@+id/BtEntrar"
+            android:id="@+id/BtEditar2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="#00FFFFFF"
@@ -176,11 +188,10 @@
         android:id="@+id/constraintLayout"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="600dp"
-        app:layout_constraintEnd_toEndOf="@+id/BackGround"
-        app:layout_constraintHorizontal_bias="0.547"
-        app:layout_constraintStart_toStartOf="@+id/BackGround"
-        app:layout_constraintTop_toBottomOf="@+id/Logo">
+        android:layout_marginTop="650dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -216,9 +227,8 @@
         android:importantForAccessibility="no"
         android:scaleType="fitXY"
         android:src="@drawable/group_6__1_"
-        app:layout_constraintEnd_toEndOf="@+id/linearLayout"
-        app:layout_constraintHorizontal_bias="0.547"
-        app:layout_constraintStart_toStartOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="@+id/constraintLayout"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
         tools:src="@drawable/group_6__1_" />
 
@@ -233,16 +243,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/QtdPontos"
         app:srcCompat="@drawable/frame_2" />
-
-    <ImageButton
-        android:id="@+id/BtSair"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:importantForAccessibility="no"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/BtTrocarPontos"
-        app:srcCompat="@drawable/frame_13" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

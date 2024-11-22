@@ -43,7 +43,7 @@
         tools:text="GOCYCLE" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/Slogan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppins_light"
@@ -57,7 +57,7 @@
         tools:text="Mude o clima, vá de bike!" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/Bicicleta1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
@@ -67,15 +67,15 @@
         android:importantForAccessibility="no" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/BtEntrar1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="50dp"
         android:backgroundTint="#00FFFFFF"
+        android:importantForAccessibility="no"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/frame_2"
-        android:importantForAccessibility="no" />
+        app:srcCompat="@drawable/frame_17__1_" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

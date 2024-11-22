@@ -40,7 +40,7 @@
         tools:text="GOCYCLE" />
 
     <ImageView
-        android:id="@+id/view"
+        android:id="@+id/BackgroundOpacity"
         android:layout_width="wrap_content"
         android:layout_height="600dp"
         android:background="#00FFFFFF"
@@ -55,7 +55,7 @@
         app:layout_constraintVertical_bias="0.656" />
 
     <TextView
-        android:id="@+id/Logo"
+        android:id="@+id/CrieSuaConta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -65,13 +65,13 @@
         android:text="@string/crie_sua_conta"
         android:textColor="#FFFFFF"
         android:textSize="36sp"
-        app:layout_constraintStart_toStartOf="@+id/view"
-        app:layout_constraintTop_toTopOf="@+id/view"
+        app:layout_constraintStart_toStartOf="@+id/BackgroundOpacity"
+        app:layout_constraintTop_toTopOf="@+id/BackgroundOpacity"
         tools:ignore="DuplicateIds"
         tools:text="CRIE SUA CONTA" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/NameCamp"
         android:layout_width="330dp"
         android:layout_height="50dp"
         android:layout_marginTop="115dp"
@@ -92,13 +92,13 @@
         android:textColorHighlight="#FFFFFF"
         android:textColorHint="#FFFFFF"
         android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="@+id/view"
-        app:layout_constraintStart_toStartOf="@+id/view"
-        app:layout_constraintTop_toTopOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="@+id/BackgroundOpacity"
+        app:layout_constraintStart_toStartOf="@+id/BackgroundOpacity"
+        app:layout_constraintTop_toTopOf="@+id/BackgroundOpacity"
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/PasswordCamp"
         android:layout_width="330dp"
         android:layout_height="50dp"
         android:layout_marginTop="28dp"
@@ -118,14 +118,14 @@
         android:textColorHighlight="#FFFFFF"
         android:textColorHint="#FFFFFF"
         android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="@+id/view"
-        app:layout_constraintStart_toStartOf="@+id/view"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/BackgroundOpacity"
+        app:layout_constraintStart_toStartOf="@+id/BackgroundOpacity"
+        app:layout_constraintTop_toBottomOf="@+id/EmailAddressCamp"
         tools:ignore="TextFields"
         android:importantForAutofill="no" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/EmailAddressCamp"
         android:layout_width="330dp"
         android:layout_height="50dp"
         android:layout_marginTop="28dp"
@@ -146,34 +146,34 @@
         android:textColorHighlight="#FFFFFF"
         android:textColorHint="#FFFFFF"
         android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="@+id/view"
-        app:layout_constraintStart_toStartOf="@+id/view"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintEnd_toEndOf="@+id/BackgroundOpacity"
+        app:layout_constraintStart_toStartOf="@+id/BackgroundOpacity"
+        app:layout_constraintTop_toBottomOf="@+id/NameCamp" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/BtEntrar4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:backgroundTint="#00FFFFFF"
         android:importantForAccessibility="no"
-        app:layout_constraintBottom_toBottomOf="@+id/view"
-        app:layout_constraintEnd_toEndOf="@+id/view"
-        app:layout_constraintStart_toStartOf="@+id/view"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton4"
+        app:layout_constraintBottom_toBottomOf="@+id/BackgroundOpacity"
+        app:layout_constraintEnd_toEndOf="@+id/BackgroundOpacity"
+        app:layout_constraintStart_toStartOf="@+id/BackgroundOpacity"
+        app:layout_constraintTop_toBottomOf="@+id/BtEntrar3"
         app:srcCompat="@drawable/frame_17" />
 
     <ImageButton
-        android:id="@+id/imageButton4"
+        android:id="@+id/BtEntrar3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
         android:backgroundTint="#00FFFFFF"
         android:foregroundTint="#00FFFFFF"
         android:src="@drawable/frame_17__1_"
-        app:layout_constraintEnd_toEndOf="@+id/view"
-        app:layout_constraintStart_toStartOf="@+id/view"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+        app:layout_constraintEnd_toEndOf="@+id/BackgroundOpacity"
+        app:layout_constraintStart_toStartOf="@+id/BackgroundOpacity"
+        app:layout_constraintTop_toBottomOf="@+id/PasswordCamp"
         android:importantForAccessibility="no" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
